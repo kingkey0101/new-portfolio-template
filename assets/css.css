@@ -1,3 +1,5 @@
+/* RESET AND GLOBAL STYLES */
+
 *(
     margin: 0;
     padding: 0;
@@ -10,6 +12,8 @@ body{
     line-height: 1.6;
     padding: 20px;
 }
+
+/* HEADER AND NAVIGATION STYLES */
 
 header{
     text-align: center;
@@ -42,6 +46,8 @@ nav ul li a:hover{
     background: #2980b9;
 }
 
+/* MAIN SECTION STYLES */
+
 main{
     max-width: 800px;
     margin: 30px auto;
@@ -59,6 +65,45 @@ h2{
     color: #2c3e50;
     margin-bottom: 10px;
 }
+
+/* PROJECTS SECTION STYLES */
+
+
+
+
+.projects{
+    display: flex;
+    justify-content: space space-around;
+    gap: 20px;
+}
+
+.project-card{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+/* BUTTON STYLES */
+
+.btn{
+    display: inline-block;
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: #e76f51;
+}
+
+/* FOOTER STYLES */
 
 
 footer{
